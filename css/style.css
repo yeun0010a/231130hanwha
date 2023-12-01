@@ -148,7 +148,7 @@ a img { border: none; }
 #wrap section.sns ul li a {display: block;width: 100%;height: 100px;}
 #wrap section.sns ul li a p.ani {width: 100%;height: 251px;overflow: hidden;position: relative;}
 #wrap section.sns ul li a p.ani::before{ content:'';width: 100%;height: 0;
-    background-color: rgba(255, 131, 66, 0.8); transition: .5s;position: absolute;bottom: 0;right: 0;}
+    background-color: rgba(255, 131, 66, 0.8); transition: .5s;position: absolute;top: 0;right: 0;}
 #wrap section.sns ul li a:hover p.ani::before{content:'';height: 100%;}
 /* 이미지 위의 블로그 글씨 */
 #wrap section.sns ul li a p.ani::after{content:'BLOG';opacity: 0;color: #fff;
